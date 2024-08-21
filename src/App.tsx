@@ -1,24 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AsyncExample from './AsyncExample';
+import PromiseExample from './PromiseExample';
+import PostExample from './PostExample';
+import UncontrolledForm from './UncontrolledForm';
+import RegexValidationForm from './RegexValidationForm';
+import ReactHookForm from './ReactHookForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     {/* <AsyncExample/> */}
+     {/* <PromiseExample/> */}
+     {/* <PostExample/> */}
+     {/* <UncontrolledForm/> */}
+     {/* <RegexValidationForm/> */}
+     <ReactHookForm/>
     </div>
   );
 }
